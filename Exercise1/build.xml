@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<project name="test" default="myprog">
+    <property file="build.properties"/>
+    <target name="myprog">
+        <echo>Apache Ant version is ${ant.version} - You are at ${sitename}. Program by ${user} </echo>
+    </target>
+</project>
