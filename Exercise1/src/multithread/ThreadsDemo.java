@@ -1,4 +1,4 @@
-package exercise1;
+package multithread;
 
 public class ThreadsDemo {
     public static void main(String args[]) {

@@ -1,18 +1,19 @@
-package exercise1;
+package multithread;
 
-public class IncreasingThread implements Runnable {
+public class AddingThread implements Runnable {
     private String threadName;
     private Thread thread;
 
-    IncreasingThread(String name) {
+    AddingThread(String name) {
         threadName = name;
         System.out.println("Creating " +  threadName);
     }
 
     public void run() {
         System.out.println("Running " +  threadName);
-    }
 
+    }
+    
     public void start () {
         System.out.println("Starting " +  threadName);
         if (thread == null) {

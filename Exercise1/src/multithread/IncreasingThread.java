@@ -1,17 +1,16 @@
-package exercise1;
+package multithread;
 
-public class DecreasingThread implements Runnable {
+public class IncreasingThread implements Runnable {
     private String threadName;
     private Thread thread;
 
-    DecreasingThread(String name) {
+    IncreasingThread(String name) {
         threadName = name;
         System.out.println("Creating " +  threadName);
     }
 
     public void run() {
         System.out.println("Running " +  threadName);
-
     }
 
     public void start () {

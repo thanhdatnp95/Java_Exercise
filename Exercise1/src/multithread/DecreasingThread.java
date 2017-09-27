@@ -1,10 +1,10 @@
-package exercise1;
+package multithread;
 
-public class RemovingThread implements Runnable {
+public class DecreasingThread implements Runnable {
     private String threadName;
     private Thread thread;
 
-    RemovingThread(String name) {
+    DecreasingThread(String name) {
         threadName = name;
         System.out.println("Creating " +  threadName);
     }
